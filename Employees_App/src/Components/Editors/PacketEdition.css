@@ -1,0 +1,55 @@
+/** 
+ * Estilo de la caja de PacketEdition.
+*/
+.PacketEdition{
+    height: 100%;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+/** 
+ * Estilo del título de la vista.
+*/
+.PacketEdition_title{
+    font-size: 30px;
+    font: 30em;
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color:rgb(86, 123, 225);
+}
+
+/** 
+ * Estilo del formulario.
+*/
+.PacketEdition_form{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/** 
+ * Estilo del texto de los inputs.
+*/
+.form_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+/** 
+ * Estilo de los campos de volumen o coste.
+*/
+.PacketAdd_volume_weight{
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 20px;
+}
+
+/** 
+ * Estilo del botón de fragilidad.
+*/
+#PacketEdition_fragility{
+    margin-left: 10px;
+}

@@ -1,0 +1,62 @@
+/** 
+ * Estilo de la caja de OrderAdd.
+*/
+.OrderAdd{
+    height: 100%;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+/** 
+ * Estilo del título.
+*/
+.OrderAdd_title{
+    font-size: 30px;
+    font: 30em;
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color:rgb(86, 123, 225);
+}
+
+/** 
+ * Estilo del formulario.
+*/
+.OrderAdd_form{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/** 
+ * Estilo de los comentarios.
+*/
+.form_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+/** 
+ * Estilo de los comentarios de las fechas.
+*/
+.form_text_date{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/** 
+ * Estilo del botón de añadir.
+*/
+.OrderAdd_add{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

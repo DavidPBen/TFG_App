@@ -1,0 +1,129 @@
+/** 
+ * Estilo de la caja de SendOrder.
+*/
+.SendOrder{
+    height: 100%;
+}
+
+/** 
+ * Estilo del título de la caja de SendOrder.
+*/
+#SendOrder_main_title{
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+/** 
+ * Estilo de las descripciones de la caja de SendOrder.
+*/
+.SendOrder_descriptions{
+    font-family: "PlutoSans", sans-serif;
+    color:rgb(86, 123, 225);
+}
+
+/** 
+ * Estilo del comentario de las fechas deseadas.
+*/
+#HelpBlock_desiredDates{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/** 
+ * Estilo del botón de paquetes.
+*/
+.sendorder_button_AddPackage{
+    font-family: "PlutoSans", sans-serif;
+    color:rgb(86, 123, 225);
+    border-color: rgb(86, 123, 225);
+    margin-bottom: 20px;
+}
+
+/** 
+ * Estilo del botón de volver al inicio.
+*/
+.sendorder_button_goHome{
+    margin-bottom: 30px;
+}
+
+/** 
+ * Estilo de las cajas de los paquetes.
+*/
+.sendorder_packages{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 3px 0 rgb(86, 123, 225);
+    border-radius: 10px;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo de las cajas de los paquetes. Tiene borde redondeado, sombra azul, margen y padding.
+*/
+.sendorder_package_container{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(86, 123, 225);
+    margin: 10px;
+    padding: 10px;
+}
+
+/** 
+ * Estilo del hr de los paquetes.
+*/
+.hr_sendorder{
+    color:rgb(86, 123, 225);
+    margin-left: 17vw;
+    margin-right: 17vw;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo del hr de los paquetes. Está centrado y tiene un color azul.
+*/
+.sendorder_package_hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    border-color: rgb(86, 123, 225);
+}
+
+/** 
+ * Estilo de la descripción de los costes.
+*/
+.sendorder_cost_description_field{
+    font-family: "PlutoSans", sans-serif;
+    color:rgb(128, 128, 128);
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+/** 
+ * Estilo del coste total.
+*/
+#sendorder_cost_main{
+    font-family: "PlutoSans", sans-serif;
+}
+
+/** 
+ * Estilo del botón de confirmar.
+*/
+.sendorder_send{
+    font-family: "PlutoSans", sans-serif;
+    background-color:rgb(86, 123, 225);
+    border: #000000;
+    margin-bottom: 5px;
+}
+
+/** 
+ * Estilo del botón de eliminar paquete seleccionado.
+*/
+.sendorder_button_DeletePackage{
+    margin-bottom: 7px;
+    margin-top: -10px;
+}

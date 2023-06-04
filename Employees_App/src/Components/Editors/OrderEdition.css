@@ -1,0 +1,147 @@
+/** 
+ * Estilo de la caja de OrderEdition.
+*/
+.OrderEdition{
+    height: 100%;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+/** 
+ * Estilo del título de la vista
+*/
+.OrderEdition_title{
+    font-size: 30px;
+    font: 30em;
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color:rgb(86, 123, 225);
+}
+
+/** 
+ * Estilo del formulario.
+*/
+.OrderEdition_form{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/** 
+ * Estilo de los comentarios.
+*/
+.form_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+/** 
+ * Estilo de los comentarios de las fechas.
+*/
+.form_text_date{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/** 
+ * Estilo de los campos de volumen o coste.
+*/
+.OrderEdition_volume_cost{
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 20px;
+}
+
+/** 
+ * Estilo de las fechas.
+*/
+.form_dates{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 8px;
+    border:#e2e2e2 solid 2px;
+    padding: 3px;
+    width: 150px;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo de las fechas. Deben estar en la misma línea, tener el mismo tamaño , estar centradas y tener un borde.
+*/
+.OrderEdition_Date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/** 
+ * Estilo de los botones.
+*/
+.OrderEdition_Iteration_Buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/** 
+ * Estilo general de los paquetes.
+*/
+.OrderEdition_Packets{
+    padding-bottom: 1vh;
+}
+
+/** 
+ * Estilo del título de los paquetes.
+*/
+.OrderEdition_Packets_Title{
+    font-size: 25px;
+    font: 30em;
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color:rgb(86, 123, 225);
+}
+
+/** 
+ * Estilo del contenedor de los paquetes.
+*/
+.OrderEdition_Packets_Container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 0);
+}
+
+    /** 
+     * Estilo del botón de editar paquetes.
+    */
+    .OrderEdition_Packets_Container > .OrderEdition_Edit_Packets{
+        margin-bottom: 10px;
+    }
+
+/** 
+    * Estilo del valor de fragilidad de los paquetes.
+*/
+#fragile{
+    font-weight: bold;
+}

@@ -1,0 +1,94 @@
+/** 
+ * Estilo de la caja de SendPackage.
+*/
+.SendPackage{
+    height: 100vh;
+}
+
+/** 
+ * Estilo del título de la caja de SendPackage.
+*/
+#SendPackage_main_title{
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+/** 
+ * Estilo de las descripciones de la caja de SendPackage.
+*/
+.SendPackage_descriptions{
+    font-family: "PlutoSans", sans-serif;
+    color:rgb(86, 123, 225);
+}
+
+/** 
+ * Estilo de los campos principales.
+*/
+.SendPackage_field{
+    font-family: "PlutoSans", sans-serif;
+}
+
+/** 
+ * Estilo del comentario de los campos principales.
+*/
+.SendPackage_field_description{
+    font-family: "PlutoSans", sans-serif;
+    color:rgb(146, 146, 146);
+}
+
+/** 
+ * Estilo del contenedor de información del peso y del volumen.
+*/
+.Volume_and_Weight_container{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    width: 70vw;
+    margin-left: 7.2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo del contenedor de información del peso y del volumen. Añade padding y margen.
+*/
+.SendPackage_weightAndVolume_container{
+    padding: 10px;
+    margin: 10px;
+}
+
+/** 
+ * Estilo del botón de añadir paquete.
+*/
+#SendPackage_button{
+    font-family: "PlutoSans", sans-serif;
+    background-color:rgb(86, 123, 225);
+    border: #000000;
+}
+
+/** 
+ * Estilo del hr de package.
+*/
+#hr_sendPackage{
+    color:rgb(86, 123, 225);
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+/** 
+ * Estilo del contenedor de la fragilidad.
+*/
+.SendPackage_fragility_container{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/** 
+ * Estilo del botón de fragilidad.
+*/
+#SendPackage_fragility{
+    margin-left: 10px;
+}

@@ -1,0 +1,48 @@
+/** 
+ * Estilo de la caja de error.
+*/
+.Error{
+    height: 100vh;
+    background-color: #ebebeb;
+}
+
+/** 
+ * Estilo del título de error.
+*/
+#error_title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000;
+    padding: 0;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 7vh;
+}
+
+/** 
+ * Estilo del mensaje de error.
+*/
+#error_message{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo del mensaje de error. El texto está centrado y tiene un tamaño de 1.5rem.
+*/
+#error_message_copilot{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/** 
+ * Estilo del texto de error.
+*/
+#error_text{
+    margin-top: 20vh;
+}

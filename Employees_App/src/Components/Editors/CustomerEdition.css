@@ -1,0 +1,41 @@
+/** 
+ * Estilo del texto de título de la vista.
+*/
+.CustomerEdition_title{
+    font-size: 30px;
+    font: 30em;
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color:rgb(86, 123, 225);
+}
+
+/** 
+ * Estilo del formulario.
+*/
+.CustomerEdition_form{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/** 
+ * Estilo de los comentarios de cada campo.
+*/
+.form_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+/** 
+ * Estilo del botón de añadir.
+*/
+.CustomerEdition_apply_changes{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

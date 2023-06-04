@@ -1,0 +1,63 @@
+/** 
+ * Estilo de la caja de ReturnView.
+*/
+.ReturnView{
+    height: 100vh;
+}
+
+/** 
+ * Estilo del título de la caja de ReturnView.
+*/
+#ReturnView_main_title{
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+/** 
+ * Estilo del botón de ReturnView.
+*/
+.confirm_return{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "PlutoSans", sans-serif;
+    background-color:rgb(86, 123, 225);
+    border: #000000;
+}
+
+/** 
+ * Estilo del contenedor de la descripción de la devolución.
+*/
+.ReturnView_description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/** 
+ * Estilo de la descripción principal de la devolución.
+*/
+.ReturnView_description1{
+    font-family: "PlutoSans", sans-serif;
+    width: 60vw;
+    margin-bottom: 10px;
+}
+
+/** 
+ * Estilo de la descripción secundaria de la devolución.
+*/
+.ReturnView_description2{
+    font-family: "PlutoSans", sans-serif;
+    width: 60vw;
+    margin-bottom: 10px;
+    color:rgb(128, 128, 128);
+}
+
+/** 
+ * Estilo del hr de devolución de pedidos.
+*/
+#hr_ReturnView{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}

@@ -1,0 +1,52 @@
+/** 
+ * Estilo de la caja de EmployeeEdition.
+*/
+.EmployeeEdition{
+    height: 105vh;
+    width: 100%;
+    background-color: #ebebeb;
+}
+/** 
+ * Estilo del título de la vista.
+*/
+.EmployeeEdition_title{
+    font-size: 30px;
+    font: 30em;
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color:rgb(86, 123, 225);
+}
+
+/** 
+ * Estilo del formulario de la vista.
+*/
+.EmployeeEdition_form{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/** 
+ * Estilo de los comentarios.
+*/
+.form_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+/** 
+ * Estilo de los botones de la vista.
+*/
+.EmployeeEdition_Iteration_Buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

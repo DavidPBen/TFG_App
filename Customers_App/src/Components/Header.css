@@ -1,0 +1,76 @@
+/** 
+ * Estilo de la caja de header. Ocupa toda la vista de la pantalla y tiene un color de fondo gris, con una sombra y un borde.
+*/
+.header{
+    background-color:#ebebeb;
+    box-shadow: 0px 0px 3px 0px #000000;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo de la caja de header. Ocupa toda la vista de la pantalla y tiene un color de fondo gris, con una sombra y un borde.
+*/
+.header_box{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ebebeb;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    border: 1px solid #000000;
+}
+
+/** 
+ * Estilo del logo de la caja de header.
+*/
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+/** 
+ * Estilo del texto de la caja de header.
+*/
+#comany_name{
+    font-size: 45px;
+    font-family: "PlutoSans", sans-serif;
+    color:rgb(86, 123, 225);
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo del texto de la caja de header. Tienen un tamaño grande, una fuente de "PlutoSans", y un color azul.
+*/
+#header_text{
+    font-size: large;
+    font-family: "PlutoSans", sans-serif;
+    color:rgb(86, 123, 225);
+}
+
+/** 
+ * Estilo del botón de registro.
+*/
+#Sign_up{
+    font-size: 20px;
+    font-family: "PlutoSans", sans-serif;
+    background-color:rgb(86, 123, 225);
+    border: #000000;
+}
+
+/** 
+ * Estilo del nombre de usuario logeado.
+*/
+#customer_name_header{
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 7px;
+}
+
+/** 
+ * Estilo del contenedor del nombre de usuario logeado.
+*/
+#customer_name_header_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+

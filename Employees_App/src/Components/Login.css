@@ -1,0 +1,74 @@
+/** 
+ * Estilo de la caja de login.
+*/
+.login{
+    height: 100vh;
+    background-color: #ebebeb;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo de la caja de login. Ocupa toda la vista de la pantalla y tiene un color de fondo gris.
+*/
+.login_box_Copilot{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/** 
+ * Estilo del texto de título de la vista.
+*/
+.login_text{
+    font-size: 30px;
+    font: 30em;
+    font-family: "PlutoSans", sans-serif;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo del texto de título de la vista. Tiene que ser grande y centrado. Con una letra bonita.
+*/
+.login_title_Copilot{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+/** 
+ * Estilo de la alerta de la vista.
+*/
+.login_alert{
+    margin-top: 2em;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo de la alerta de la vista. Tiene que estar centrada y con un margen superior.
+*/
+.login_alert_Copilot{
+    margin-top: 1em;
+    text-align: center;
+}
+
+/** 
+ * Estilo de los inputs de la vista.
+*/
+.login_input{
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+/** 
+ * Estilo del botón de la vista.
+*/
+.login_button{
+    margin-top: 1em;
+}

@@ -1,0 +1,211 @@
+/** 
+ * Estilo de la caja de Main_View.
+*/
+.MainPage{
+    height: 100%;
+    width: 100%;
+    background-color:#ebebeb;
+}
+
+/** 
+ * Estilo del hr inicial.
+*/
+#hr{
+    color:#ebebeb;
+}
+
+/** 
+ * Estilo de la foto principal.
+*/
+#send_packet_photo{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+    #send_packet_photo > #send_packet_photo_style{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo de la foto principal. Borde redondeado y sombra.
+*/
+#mainPhoto {
+  border-radius: 50%;
+  box-shadow: 0 0 10px 5px #000000;
+}
+
+/** 
+ * Estilo del texto de titulo de enviar paquetes.
+*/
+#send_packet_1{
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 18px;
+}
+
+/** 
+ * Estilo del texto descriptivo de enviar paquetes.
+*/
+#send_packet_2{
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 30px;
+}
+
+/** 
+ * Estilo del botón de enviar paquetes.
+*/
+#send_button{
+    font-size: 20px;
+    font-family: "PlutoSans", sans-serif;
+    background-color:rgb(86, 123, 225);
+    border: #000000;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo del botón de enviar paquetes. Tienen el color de fondo azul y un borde negro.
+*/
+#send_packet_button{
+    background-color:rgb(86, 123, 225);
+    border: #000000;
+}
+
+/** 
+ * Estilo del hr de enviar paquetes.
+*/
+#send_packet_hr{
+    color:rgb(86, 123, 225);
+    margin-top: 30px;
+}
+
+/** 
+ * Estilo de la foto de seguimiento.
+*/
+#search_packet_photo{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+    #search_packet_photo > #search_packet_photo_style{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+/** 
+ * Estilo del texto de titulo de seguimiento.
+*/
+#search_packet_1{
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 25px;
+}
+
+/** 
+ * Estilo del texto descriptivo de seguimiento.
+*/
+#search_packet_2{
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 30px;
+}
+
+/** 
+ * Estilo de la alerta de seguimiento.
+*/
+#search_alert{
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 5px;
+    color:rgb(255, 0, 0);
+}
+
+/** 
+ * Estilo de las tarjetas finales.
+*/
+.final_cards{
+    height: 200px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 3px 0 rgb(86, 123, 225);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    font-family: "PlutoSans", sans-serif;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo de las tarjetas finales. Tienen borde redondeado y una sombra azul. La fuente es PlutoSans.
+*/
+#final_card {
+  border-radius: 10px;
+  box-shadow: 0 0 3px 0 rgb(86, 123, 225);
+  font-family: "PlutoSans", sans-serif;
+}
+
+/** 
+ * Estilo de las imágenes de las tarjetas finales.
+*/
+.final_card_image{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+/** 
+ * Estilo del título de mis pedidos en la página principal.
+*/
+#view_orders_main_page_title_1{
+    font-family: "PlutoSans", sans-serif;
+    margin-bottom: 18px;
+}
+
+/** 
+ * Estilo del la imagen de mis pedidos en la página principal.
+*/
+#view_orders_main_page_image_style{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+/** 
+ * Estilo de las tarjetas de mis pedidos en la página principal.
+*/
+.orders_main_page_order{
+    width: 20vw;
+    border: 1px solid #000000;
+    box-shadow: 0 0 1px 0 rgb(86, 123, 225);
+    border-radius: 10px;
+    margin: 7px;
+    padding: 5px;
+    font-family: "PlutoSans", sans-serif;
+    background-color: rgb(230, 232, 238);
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo de las tarjetas de mis pedidos en la página principal. Tienen borde redondeado y una sombra azul. La fuente es PlutoSans. El color de fondo es gris y tienen margen y padding.
+*/
+#order_main_page_card {
+  border-radius: 10px;
+  box-shadow: 0 0 1px 0 rgb(86, 123, 225);
+  font-family: "PlutoSans", sans-serif;
+  background-color: rgb(230, 232, 238);
+  margin: 7px;
+  padding: 5px;
+}
+
+/** 
+ * Estilo de las tarjetas de mis pedidos en la página principal. Bulto y botón.
+*/
+.orders_main_page_order_packets_and_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 7px;
+}

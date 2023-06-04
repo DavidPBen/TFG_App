@@ -1,0 +1,69 @@
+/** 
+ * Estilo de la caja de Pay.
+*/
+.Pay{
+    height: 110vh;
+}
+
+/** 
+ * Estilo del título de la vista de pago.
+*/
+#main_title_pay_text{
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/** 
+ * Estilo de la imagen de la tarjeta.
+*/
+#pay_image_style{
+    margin-bottom: 20px;
+}
+
+/** 
+ * Estilo del texto del coste del pedido.
+*/
+#pay_description_cost{
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/** 
+ * Estilo del contenedor de la descripción del pedido.
+*/
+.pay_description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgb(128, 128, 128);
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo del contenedor de la descripción del pedido. El color debe ser gris, la fuente PlutoSans y debe tener margen.
+*/
+#pay_description_container{
+    font-family: "PlutoSans", sans-serif;
+    margin: 10px;
+    color:rgb(128, 128, 128);
+}
+
+/** 
+ * Estilo del botón de pago.
+*/
+#pay_button_style{
+    font-size: 20px;
+    font-family: "PlutoSans", sans-serif;
+    background-color:rgb(86, 123, 225);
+    border: #000000;
+}
+
+/** 
+ * Estilo del botón de volver.
+*/
+.goBack_button{
+    margin-top: 10px;
+}

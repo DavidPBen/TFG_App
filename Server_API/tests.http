@@ -1,0 +1,135 @@
+// Pruebas de las peticiones a la base de datos.
+
+###
+GET http://localhost:8000/employee_table HTTP/1.1
+###
+GET http://localhost:8000/customer_table HTTP/1.1
+###
+GET http://localhost:8000/order_table HTTP/1.1
+###
+GET http://localhost:8000/package_table HTTP/1.1
+###
+GET http://localhost:8000/employee_table/login HTTP/1.1
+
+###
+POST http://localhost:8000/employee_table HTTP/1.1
+Content-Type: application/json
+
+{
+    "Name": "Juan Perez", 
+    "Email": "juan.perez@gmail.com",
+    "DNI": "35624895H",
+    "Phone": "655214578",
+    "Password": "AES_ENCRYPT ('12345', 'tfg')",
+    "Role": "repartidor",
+    "Employee_Id": 37
+}
+
+###
+POST http://localhost:8000/order_table HTTP/1.1
+Content-Type: application/json
+
+{
+    "Customer_Id": 3,
+    "Origin": "Calle San Basilio, 14, 3ºB, 25024 Madrid",
+    "Destination": "Calle de la Pesca, 1, 28024 Madrid",
+    "Volume": 65,
+    "Cost": 17,
+    "State": "En almacén destino",
+    "Shipment_Type": "Normal",
+    "Expected_Collection_Date": "2022-12-23",
+    "Expected_Arrival_Date": "2022-12-25",
+    "Employee_In_Charge": 15
+}
+
+###
+POST http://localhost:8000/customer_table/create HTTP/1.1
+Content-Type: application/json
+
+[
+    "Juan Jiménez", 
+    "juan.jim@gmail.com",
+    "35624895H",
+    "655214578",
+    "Calle de San Nicolás, 4, 48005",
+    12345
+]
+
+###
+POST http://localhost:8000/employee_table/create HTTP/1.1
+Content-Type: application/json
+
+[
+    "Juan Jiménez", 
+    "juan.jim@gmail.com",
+    "35624895H",
+    "655214578",
+    "repartidor",
+    37,
+    "",
+    1,
+    12345
+]
+
+###
+DELETE http://localhost:8000/employee_table/11 HTTP/1.1
+
+###
+PUT http://localhost:8000/employee_table/11 HTTP/1.1
+Content-Type: application/json
+
+{
+    "Name": "Antonio Garcia", 
+    "Email": "antonio@gmail.com",
+    "DNI": "54218654G",
+    "Phone": "655489351",
+    "Password": "AES_ENCRYPT ('12345', 'tfg')",
+    "Role": "moderador",
+    "Employee_Id": 37
+}
+
+###
+PUT http://localhost:8000/employee_table/login HTTP/1.1
+###
+PUT http://localhost:8000/employee_table/password_try/1 HTTP/1.1
+Content-Type: application/json
+
+[
+    "12345aaaa"
+]
+###
+PUT http://localhost:8000/employee_table/create/03333333F HTTP/1.1
+Content-Type: application/json
+
+[
+    "eee3333333"
+]
+###
+PUT http://localhost:8000/customer_table/create/35624895H HTTP/1.1
+Content-Type: application/json
+
+[
+    "eee3333333"
+]
+###
+PUT http://localhost:8000/order_table/pay/978902308 HTTP/1.1
+Content-Type: application/json
+
+[
+    978902308
+]
+###
+PUT http://localhost:8000/order_table/return_state/856325412 HTTP/1.1
+Content-Type: application/json
+
+[
+    "Entregado"
+]
+###
+PUT http://localhost:8000/order_table/return_date/120121425 HTTP/1.1
+Content-Type: application/json
+
+[
+    "2020-12-26 17:10:00"
+]
+###

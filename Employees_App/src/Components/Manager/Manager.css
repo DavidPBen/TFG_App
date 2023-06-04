@@ -1,0 +1,107 @@
+/** 
+ * Estilo de la caja de manager.
+*/
+.Manager{
+    height: 100%;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+/** 
+ * Estilo del título de la vista.
+*/
+.Manager_title{
+    font-size: 30px;
+    font: 30em;
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+/** 
+ * Estilo del título de cada tabla.
+*/
+.Manager_Field_title{
+    font-size: 20px;
+    font: 20em;
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color:rgb(86, 123, 225);
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo del título de cada tabla. Con color azul claro, márgenes superiores e inferiores y una letra bonita.
+*/
+.Manager_table_title_Copilot{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #3f51b5;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/** 
+ * Estilo del filtro de cada tabla.
+*/
+.Manager_Field_filter{
+    width : 90%;
+    margin-left: 5%;
+}
+
+/** 
+ * Estilo de las tablas.
+*/
+.Manager_Field_table{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0px #000000;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo de las tablas. Con bordes redondeados, márgenes, sombra y un color de fondo claro.
+*/
+.Manager_table_Copilot{
+    border-radius: 10px;
+    margin: 1em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f5f5f5;
+}
+
+/** 
+ * Estilo de los botones de ver más.
+*/
+.Manager_Field_view_more{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo de los botones de ver más. Con un margen derecho y un margen inferior. En el margen derecho de la vista.
+*/
+.Manager_view_more_Copilot{
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+/** 
+ * Estilo de los botones de ver pedidos inactivos.
+*/
+.Manager_view_inactives{
+    margin-left: 20px;
+}

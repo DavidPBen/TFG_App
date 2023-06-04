@@ -1,0 +1,72 @@
+/** 
+ * Estilo de la caja de Customer_Service.
+*/
+.Customer_Service{
+    height: 100%;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+/** 
+ * Estilo del título de la vista.
+*/
+.Customer_Service_title{
+    font-size: 30px;
+    font: 30em;
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/** 
+ * Estilo del título de cada tabla.
+*/
+.Customer_Service_Field_title{
+    font-size: 20px;
+    font: 20em;
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color:rgb(86, 123, 225);
+}
+
+/** 
+ * Estilo del filtro de cada tabla.
+*/
+.Customer_Service_filter{
+    width : 90%;
+    margin-left: 5%;
+}
+
+/** 
+ * Estilo de las tablas.
+*/
+.Customer_Service_table{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0px #000000;
+}
+
+/** 
+ * Estilo del botón de ver más de cada tabla.
+*/
+.Customer_Service_view_more{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/** 
+ * Estilo de los botones de ver pedidos inactivos.
+*/
+.Customer_Service_view_inactives{
+    margin-left: 20px;
+}

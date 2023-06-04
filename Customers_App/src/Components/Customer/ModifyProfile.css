@@ -1,0 +1,111 @@
+/** 
+ * Estilo de la caja de ModifyProfile.
+*/
+.ModifyProfile{
+    height: 115vh;
+}
+
+/**
+ * Estilo del título de ModifyProfile.
+*/
+#text_modifyprofile_loged{
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+/** 
+ * Estilo del titulo de ModifyProfile en caso de cliente sin iniciar sesión.
+*/ 
+#text_modifyprofile_not_loged{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "PlutoSans", sans-serif;
+}
+
+/** 
+ * Estilo del contenedor de login de ModifyProfile en caso de cliente sin iniciar sesión.
+*/
+.login_modifyprofile_not_loged{
+    margin-left:20vw;
+}
+
+/** 
+ * Estilo del contenedor de registro de ModifyProfile en caso de cliente sin iniciar sesión.
+*/
+.signup_modifyprofile_not_loged{
+    margin-right:20vw;
+}
+
+/** 
+ * Estilo del botón de login en caso de cliente sin iniciar sesión.
+*/
+#Log_in_modify_profile{
+    font-size: 20px;
+    font-family: "PlutoSans", sans-serif;
+    background-color:rgb(86, 123, 225);
+    border: #000000;
+}
+
+/** 
+ * Estilo del botón de registro en caso de cliente sin iniciar sesión.
+*/
+#Sign_up_modify_profile{
+    font-size: 20px;
+    font-family: "PlutoSans", sans-serif;
+    background-color:rgb(86, 123, 225);
+    border: #000000;
+}
+
+/** 
+ * Estilo del contenedor de volver a home en ModifyProfile en caso de cliente no logeado.
+*/
+#Go_home_modify_profile_notloged{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "PlutoSans", sans-serif;
+}
+
+/** 
+ * Estilo del contenedor de volver a home en ModifyProfile en caso de cliente logeado.
+*/
+#Go_home_modify_profile_loged{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "PlutoSans", sans-serif;
+}
+
+/** 
+ * Vista realizada por GitHub Copilot.
+ * Estilo del contenedor de volver a home en ModifyProfile en caso de cliente logeado. Tiene margen superior de 20px, inferior de 10px, centrado y con la fuente de PlutoSans.
+*/
+#go_home_ModifyProfile{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "PlutoSans", sans-serif;
+}
+
+/** 
+ * Estilo de la alerta de ModifyProfile.
+*/
+#alert_modifyProfile{
+    margin-bottom: 15px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+    font-family: "PlutoSans", sans-serif;
+}
+
+/** 
+ * Estilo del botón de realizar cambios.
+*/
+#apply_changes_button{
+    font-size: 20px;
+    font-family: "PlutoSans", sans-serif;
+    background-color:rgb(86, 123, 225);
+    border: #000000;
+}

@@ -1,0 +1,95 @@
+/** 
+ * Estilo de la caja de Signup.
+*/
+.Signup{
+    height: 100vh;
+}
+
+/**
+ * Estilo del título de signup.
+*/
+#signup_title{
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+/**
+ * Estilo de los comentarios de los inputs.
+*/
+.HelpBlock{
+    font-family: "PlutoSans", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5px;
+}
+
+/**
+ * Estilo del botón de registro.
+*/
+.signup_inputs_Button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/**
+ * Estilo del texto de iniciar sesión en el registro.
+*/
+.login_signup{
+    margin-top: 13px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: large;
+}
+
+/**
+ * Vista realizada por GitHub Copilot.
+ * Estilo del texto de iniciar sesión en el registro. 
+*/
+.login_signup_text{
+    font-family: "PlutoSans", sans-serif;
+    color:rgb(86, 123, 225);
+}
+
+/**
+ * Estilo del div del botón de iniciar sesión en el registro.
+*/
+.login_signup_button{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/**
+ * Estilo del botón de iniciar sesión en el registro.
+*/
+#login_signup_button{
+    font-family: "PlutoSans", sans-serif;
+    background-color:rgb(86, 123, 225);
+    border: #000000;
+}
+
+/**
+ * Estilo de la alerta de signup.
+*/
+.signup_alert{
+    font-family: "PlutoSans", sans-serif;
+    margin-top: 1vh;
+    margin-left: 22vw;
+    margin-right: 22vw;
+    text-align: center;
+}
+
+/**
+ * Vista realizada por GitHub Copilot.
+ * Estilo de la alerta de signup. Debe haber margen izquierdo y derecho, y el texto y tiene que estar centrado.
+*/
+.signup_alert_text{
+    margin-left: 22vw;
+    margin-right: 22vw;
+    text-align: center;
+}
